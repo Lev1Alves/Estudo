@@ -1,0 +1,32 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+/*p , h1{
+    color: pink;
+}
+body div section p,
+body div section h1{
+    color: aquamarine;
+} 
+
+
+.main-content h2.cabecalho {
+    font-style: italic;
+    color: red;
+}
+div{
+    color: initial;
+}
+
+.pai > .filha > .filha-da-filha{
+    color: red;
+}*/
+
+.brother h1~p{
+  color: red;
+}
+.brother p+h1{
+    color: rgb(208, 255, 0);
+  }

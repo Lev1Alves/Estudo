@@ -1,0 +1,51 @@
+.brother:hover{
+    background: red;
+}
+.brother{
+    transition: all 300ms ease-in-out;
+}
+a{
+    color: darkorange;
+}
+a:link{
+    color: aquamarine;
+}
+a:visited{
+    color: chartreuse;
+}
+a:hover{
+    background: gray;
+    color: white;
+    text-decoration: none;
+}
+a:active{
+    background: rgb(3, 0, 0);
+    color: white;
+    text-decoration: none;
+}
+/*input:focus{
+    box-shadow: 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: 1px solid black;
+}
+input:enabled{
+    background-color: brown;
+    cursor: not-allowed;
+}*/
+input:checked{
+    width: 50px;
+    height: 50px;
+}
+input:checked + p{
+    color: red;
+}
+.pai .lista li:last-child{
+    background: red;
+}
+
+input:not(checked) + p{
+    color: yellow;
+}
+ul li:nth-child(even){
+    background-color: rebeccapurple;
+}
