@@ -1,0 +1,32 @@
+/* 
+ID  Classes,atributos e pseudo-classes  Elementos e pseudo-elementos
+ 1                0                               0
+*/
+#p{
+    background: red;
+}
+
+/* 
+ID  Classes,atributos e pseudo-classes  Elementos e pseudo-elementos
+ 0                 1                               0
+*/
+
+.p{
+    background-attachment: yellow;
+}
+/* 
+ID  Classes,atributos e pseudo-classes  Elementos e pseudo-elementos
+ 1                  1                               0
+*/
+
+#p.p{
+    background-attachment: yellow;
+}
+
+/* 
+ID  Classes,atributos e pseudo-classes  Elementos e pseudo-elementos
+ 0                  1                               1
+*/
+p.p{
+    background-attachment: yellow;
+}
